@@ -8,14 +8,10 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+import java.awt.event.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 
 
 public class App {
@@ -27,7 +23,6 @@ public class App {
 
     private Player player = new Player();
 
-    private JButton button_msg;
     private JPanel panelMain;
     private JTextField selected_partition;
     private JButton play_button;
@@ -43,10 +38,10 @@ public class App {
     private JButton button6;
     private JButton button7;
     private JPanel pentagram_panel;
-    private JPanel pentagram_panel_img;
     private JTable pentagram_table;
     private String current_note = "R";
     private String[] song = new String[cols];
+    private JPanel pentagram_panel_img;
 
     public App() {
         // Assign note to buttons
@@ -57,6 +52,15 @@ public class App {
         button5.setActionCommand("SC");
         button6.setActionCommand("F");
         button7.setActionCommand("SF");
+
+        // Underline letter(s) that will be written on partition
+        button1.setText("<html><a style='text-decoration:underline'>R</a>edonda</html>");
+        button2.setText("<html><a style='text-decoration:underline'>B</a>lanca</html>");
+        button3.setText("<html><a style='text-decoration:underline'>N</a>egra</html>");
+        button4.setText("<html><a style='text-decoration:underline'>C</a>orchea</html>");
+        button5.setText("<html><a style='text-decoration:underline'>S</a>emi<a style='text-decoration:underline'>C</a>orchea</html>");
+        button6.setText("<html><a style='text-decoration:underline'>F</a>usa</html>");
+        button7.setText("<html><a style='text-decoration:underline'>S</a>emi<a style='text-decoration:underline'>F</a>usa</html>");
 
         // Button press action listener
         ActionListener listener = new ActionListener() {
@@ -73,10 +77,10 @@ public class App {
         button6.addActionListener(listener);
         button7.addActionListener(listener);
 
+        // Listeners
         pentagram_table.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseReleased(MouseEvent e) {
-                // Consigo tabla, fila y columna
                 JTable target = (JTable)e.getSource();
                 int row = target.getSelectedRow();
                 int column = target.getSelectedColumn();
@@ -91,6 +95,8 @@ public class App {
                     song[i] = null;
                     selected_partition.setText("");
                 }
+                last_note = null;
+                last_target = null;
             }
         });
         back_button.addActionListener(new ActionListener() {
@@ -159,7 +165,8 @@ public class App {
         return out;
     }
 
-    private String setSection(boolean same, int row) {
+    // Returns what will be printed on partition
+    private String getSongSection(boolean same, int row) {
         if (same || current_note == null) return null;
 
         String note = translateNote(((row - rows) * -1)%7);
@@ -168,20 +175,24 @@ public class App {
         return note + octave + duration;
     }
 
+    // Writes current note on cell and updates song array
     private void setCellValue(JTable target, int column, int row) {
-        System.out.println("last note= "+last_note);
+        // Update previous action
         last_note = (String)target.getValueAt(row, column);
         last_target = target;
-        System.out.println("current note= "+current_note);
+
+        // If the same values were selected, clear the cell. Else write new value.
         boolean same_as_selected = target.getValueAt(row, column) == (current_note);
-        String value = same_as_selected ? "" : current_note;
+        String value = same_as_selected ? null : current_note;
         clearColumn(target, column);
         target.setValueAt(value, row, column);
 
-        song[column] = setSection(same_as_selected, row);
+        // Update song array and partition text
+        song[column] = getSongSection(same_as_selected, row);
         updatePartition();
     }
 
+    // Joins "notes" from song into correct format
     private String getFullSong() {
         String full_song = "";
         for (String s : song) {
@@ -190,14 +201,16 @@ public class App {
         return full_song;
     }
 
+    // Updates song text from partition
     private void updatePartition(){
         selected_partition.setText(getFullSong());
     }
 
+    // Sets empty string to all cells in a column
     private void clearColumn(JTable target, int column) {
         int rows = target.getRowCount();
         for (int row = 0; row < rows; row++) {
-            target.setValueAt("", row, column);
+            target.setValueAt(null, row, column);
         }
     }
 
@@ -210,7 +223,7 @@ public class App {
     }
 
     private void createUIComponents() {
-        // Crear tabla y asignarle la cantidad de filas y columnas
+        // Create table and assign row and column count
         pentagram_panel = new JPanel(){
             @Override
             protected void paintComponent(Graphics g) {
@@ -233,7 +246,7 @@ public class App {
             }
         };
 
-        // Modificar el ancho de las columnas
+        // Modify column width
         TableColumnModel columnModel = pentagram_table.getColumnModel();
         for (int i = 0; i < cols; i++) {
             columnModel.getColumn(i).setPreferredWidth(35);
