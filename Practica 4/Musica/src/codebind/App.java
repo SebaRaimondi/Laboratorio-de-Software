@@ -1,5 +1,7 @@
 package codebind;
 
+import org.jfugue.player.Player;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -15,12 +17,15 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
+
 public class App {
     private int rows = 13;
     private int cols = 27;
 
     private JTable last_target;
     private String last_note;
+
+    private Player player = new Player();
 
     private JButton button_msg;
     private JPanel panelMain;
@@ -98,6 +103,18 @@ public class App {
                 current_note = x;
             }
         });
+        play_button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                player.play(getFullSong());
+            }
+        });
+        play_read_button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                player.play(read_partition.getText());
+            }
+        });
     }
 
     private String translateToDuration(String in) {
@@ -162,13 +179,19 @@ public class App {
         target.setValueAt(value, row, column);
 
         song[column] = setSection(same_as_selected, row);
+        updatePartition();
+    }
 
+    private String getFullSong() {
         String full_song = "";
         for (String s : song) {
             if (s != null) full_song += s + " ";
         }
+        return full_song;
+    }
 
-        selected_partition.setText(full_song);
+    private void updatePartition(){
+        selected_partition.setText(getFullSong());
     }
 
     private void clearColumn(JTable target, int column) {
