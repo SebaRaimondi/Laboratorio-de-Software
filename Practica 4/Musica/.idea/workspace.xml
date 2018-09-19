@@ -45,9 +45,10 @@
     <session id="-1691091882">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -85,14 +86,6 @@
               <caret line="95" column="49" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3613#3614#0" expanded="true" />
-                <element signature="e#3671#3672#0" expanded="true" />
-                <element signature="e#3871#3872#0" expanded="true" />
-                <element signature="e#3908#3909#0" expanded="true" />
-                <element signature="e#5813#5814#0" expanded="true" />
-                <element signature="e#5870#5871#0" expanded="true" />
-                <element signature="e#4437#4644#0" expanded="true" />
-                <element signature="e#4643#4644#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -177,6 +169,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,7 +236,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -282,22 +275,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/pentagrama.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codebind/App.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/pentagrama.jpg" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="2069" column="16" selection-start-line="2069" selection-start-column="16" selection-end-line="2069" selection-end-column="24" />
-          <folding>
-            <element signature="e#35746#35747#0" expanded="true" />
-            <element signature="e#35804#35805#0" expanded="true" />
-            <element signature="e#74301#74302#0" expanded="true" />
-            <element signature="e#74331#74332#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -318,6 +300,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codebind/App.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">
