@@ -1,10 +1,11 @@
 package a;
 
 public enum Notas {
-    DO("C"), RE("D"), MI("E"), FA("F"), SOL("G"), LA("A"), SI("B");
+    DO("C"), FA("F"), LA("A"), MI("E"), RE("D"), SI("B"), SOL("G");
+
     private String americano;
 
-    private Notas(String americano) {
+    Notas(String americano) {
         this.americano = americano;
     }
 

@@ -10,7 +10,7 @@ public enum CharlyGarcia {
 
     private InstrumentoMusical instrumento;
 
-    private CharlyGarcia() {
+    CharlyGarcia() {
         instrumento = new Piano();
     }
 
