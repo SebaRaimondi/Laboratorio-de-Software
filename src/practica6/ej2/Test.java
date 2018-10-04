@@ -1,4 +1,4 @@
-package practica6.dos;
+package practica6.ej2;
 
 public class Test {
     public static void main(String[] args) {

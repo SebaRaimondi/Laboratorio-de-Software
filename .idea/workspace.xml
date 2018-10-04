@@ -2,197 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b05e06f-ac3e-4a25-857c-c7ed45ffc273" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfugue_5_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practica3/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practica3/SortBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Laboratorio-de-Software.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/.idea/artifacts/Practica_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/Practica 1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/artifacts/Practica_1_jar/Practica 1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/EstudiantSecundario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/Estudiante.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/EstudiantePrimario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/EstudianteUniversitario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/PoolConexiones.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/TestEstudiante.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/geometria/Circulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/geometria/FiguraGeometrica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/geometria/Paint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/geometria/PaintTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/geometria/Rectangulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/laboratorio/Dialoguito.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/laboratorio/SuperClase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/laboratorio1/OtraClase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/out/production/Practica 1/laboratorio1/SubClase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/EstudiantSecundario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/EstudiantSecundario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/EstudiantePrimario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/EstudiantePrimario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/EstudianteUniversitario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/EstudianteUniversitario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/PoolConexiones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/PoolConexiones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/TestEstudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/TestEstudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/geometria/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/geometria/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/geometria/FiguraGeometrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/geometria/FiguraGeometrica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/geometria/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/geometria/Paint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/geometria/PaintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/geometria/PaintTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/geometria/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/geometria/Rectangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/laboratorio/Dialoguito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/laboratorio/Dialoguito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/laboratorio/SuperClase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/laboratorio/SuperClase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/laboratorio1/OtraClase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/laboratorio1/OtraClase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 1/src/laboratorio1/SubClase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica1/laboratorio1/SubClase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/Practica 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/ColArcoIris.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/ColImpresion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/ColPrimarios.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/InstrumentoDeCuerda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/InstrumentoDeViento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/InstrumentoMusical.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/InterfaceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/MisColores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/TodosLosColores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/geometria/Circulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/geometria/FiguraGeometrica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/geometria/Paint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/geometria/PaintTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/geometria/Rectangulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/out/production/Practica 2/geometria/SortByArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/src/InstrumentoMusical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/InstrumentoMusical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/src/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/InterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/src/geometria/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/geometria/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/src/geometria/FiguraGeometrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/geometria/FiguraGeometrica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/src/geometria/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/geometria/Paint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/src/geometria/PaintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/geometria/PaintTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/src/geometria/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/geometria/Rectangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/src/hashsets/HashSetAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/hashsets/HashSetAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/src/hashsets/HashSetAgregados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/hashsets/HashSetAgregados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 2/src/hashsets/HashSetRemovidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/hashsets/HashSetRemovidos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/Practica 3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/Estudiante.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/EstudianteTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/InnerStatic$Circulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/InnerStatic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/InnerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/SortBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/SortBy$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/SortBy$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/SortBy$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/SortBy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/Stack$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/out/production/Practica 3/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/src/EstudianteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica3/EstudianteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/src/InnerStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica3/InnerStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/src/InnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica3/InnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 3/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica3/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/Musica.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/JFugue/jfugue-5.0.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/JFugue/jfugue-5.0.9.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/codebind/App$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/codebind/App$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/codebind/App$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/codebind/App$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/codebind/App$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/codebind/App$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/codebind/App$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/codebind/App$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/codebind/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Controls/clear.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Controls/clear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Controls/play.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Controls/play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Controls/undo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Controls/undo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Music/blanca.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Music/blanca.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Music/clavesol.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Music/clavesol.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Music/corchea.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Music/corchea.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Music/fusa.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Music/fusa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Music/negra.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Music/negra.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Music/pentagrama - Copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Music/pentagrama - Copy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Music/pentagrama.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Music/pentagrama.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Music/redonda.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Music/redonda.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Music/semicorchea.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Music/semicorchea.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/out/production/Musica/img/Music/semifusa.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/img/Music/semifusa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/JFugue/jfugue-5.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/codebind/App.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/codebind/App.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/codebind/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica4/codebind/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Controls/clear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Controls/play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Controls/undo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Music/blanca.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Music/clavesol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Music/corchea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Music/fusa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Music/negra.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Music/pentagrama - Copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Music/pentagrama.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Music/redonda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Music/semicorchea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 4/Musica/src/img/Music/semifusa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/Tipos Enumerativos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/out/production/Tipos Enumerativos/a/Notas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/out/production/Tipos Enumerativos/b/FrecuenciasDeLA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/out/production/Tipos Enumerativos/c/InstrumentoMusical.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/out/production/Tipos Enumerativos/d/Guitarra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/out/production/Tipos Enumerativos/d/TestGuitarra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/out/production/Tipos Enumerativos/e/CharlyGarcia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/out/production/Tipos Enumerativos/e/Piano.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/out/production/Tipos Enumerativos/e/TestCharly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/src/a/Notas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica5/a/Notas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/src/b/FrecuenciasDeLA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica5/b/FrecuenciasDeLA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/src/c/InstrumentoMusical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica5/c/InstrumentoMusical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/src/d/Guitarra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica5/d/Guitarra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/src/d/TestGuitarra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica5/d/TestGuitarra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/src/e/CharlyGarcia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica5/e/CharlyGarcia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/src/e/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica5/e/Piano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 5/src/e/TestCharly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica5/e/TestCharly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/Practica 6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/src/practica6/dos/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/dos/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/src/practica6/dos/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/dos/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/src/practica6/dos/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/dos/Perro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/src/practica6/dos/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/dos/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/src/practica6/dos/Veterinaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/dos/Veterinaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/src/practica6/tres/Similar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/tres/Similar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/src/practica6/uno/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/uno/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/src/practica6/uno/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/uno/Materia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica 6/src/practica6/uno/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/uno/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practica2/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica2/InterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practica6/dos/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/ej2/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practica6/dos/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/ej2/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practica6/dos/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/ej2/Perro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practica6/dos/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/ej2/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practica6/dos/Veterinaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/ej2/Veterinaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practica6/tres/Similar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/ej3/Similar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practica6/uno/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/ej1/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practica6/uno/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/ej1/Materia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practica6/uno/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica6/ej1/Persona.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -205,7 +25,7 @@
     <session id="508445690">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="2" />
@@ -215,12 +35,14 @@
         <counts>
           <entry key="MF" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="25" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="25" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="26" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -241,45 +63,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practica6/dos/Gato.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practica6/dos/Perro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practica6/dos/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practica6/dos/Veterinaria.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/practica6/ej3/Similar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -344,6 +134,35 @@
               <item name="Laboratorio-de-Software" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laboratorio-de-Software" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Laboratorio-de-Software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laboratorio-de-Software" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laboratorio-de-Software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laboratorio-de-Software" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laboratorio-de-Software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laboratorio-de-Software" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laboratorio-de-Software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laboratorio-de-Software" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practica6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laboratorio-de-Software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laboratorio-de-Software" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practica6" type="462c0819:PsiDirectoryNode" />
+              <item name="ej3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -351,7 +170,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538609951568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538620290449" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/practica4/JFugue/jfugue-5.0.9.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -383,11 +202,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practica6.dos.Test" />
+      <option name="MAIN_CLASS_NAME" value="practica6.ej2.Test" />
       <module name="Laboratorio-de-Software" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practica6.dos.*" />
+          <option name="PATTERN" value="practica6.ej2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,7 +235,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -427,7 +245,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32939914" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -537,7 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practica6/dos/Animal.java">
+    <entry file="file://$PROJECT_DIR$/src/practica6/ej2/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -618,36 +436,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practica6/dos/Gato.java">
+    <entry file="file://$PROJECT_DIR$/src/practica6/ej2/Perro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practica6/dos/Perro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practica6/dos/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practica6/dos/Veterinaria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Laboratorio-de-Software.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practica6/ej2/Veterinaria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practica6/ej2/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practica6/ej2/Gato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practica6/ej3/Similar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

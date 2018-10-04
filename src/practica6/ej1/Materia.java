@@ -1,4 +1,4 @@
-package practica6.uno;
+package practica6.ej1;
 
 import java.util.*;
 

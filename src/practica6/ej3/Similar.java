@@ -1,4 +1,4 @@
-package practica6.tres;
+package practica6.ej3;
 
 import java.util.ArrayList;
 import java.util.HashMap;
