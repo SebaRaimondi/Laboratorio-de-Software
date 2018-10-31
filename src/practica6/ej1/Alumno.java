@@ -9,6 +9,13 @@ public class Alumno extends Persona{
         return apellido + ", " + nombre;
     }
 
+    public Alumno(String apellido, String nombre, String legajo, String dni) {
+        this.apellido = apellido;
+        this.nombre = nombre;
+        this.legajo = legajo;
+        this.dni = dni;
+    }
+
     public enum Comparators implements Comparator<Alumno> {
         NOMBREYAPELLIDO {
             @Override
@@ -18,4 +25,13 @@ public class Alumno extends Persona{
         }
     }
 
+    @Override
+    public String toString() {
+        return "Alumno{" +
+                "apellido='" + apellido + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", legajo='" + legajo + '\'' +
+                ", dni='" + dni + '\'' +
+                '}';
+    }
 }

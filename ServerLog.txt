@@ -1,0 +1,119 @@
+
+New connection with client# 0 at Socket[addr=/127.0.0.1,port=52957,localport=8000]
+ClientNumber: 0
+DateTime: Sun Oct 28 21:20:28 ART 2018
+IP: /127.0.0.1:52957
+
+Connection with client# 0 closed
+New connection with client# 1 at Socket[addr=/127.0.0.1,port=52959,localport=8000]
+ClientNumber: 1
+DateTime: Sun Oct 28 21:20:28 ART 2018
+IP: /127.0.0.1:52959
+
+Connection with client# 1 closed
+New connection with client# 2 at Socket[addr=/127.0.0.1,port=52960,localport=8000]
+ClientNumber: 2
+DateTime: Sun Oct 28 21:20:29 ART 2018
+IP: /127.0.0.1:52960
+
+Connection with client# 2 closed
+New connection with client# 3 at Socket[addr=/127.0.0.1,port=52964,localport=8000]
+ClientNumber: 3
+DateTime: Sun Oct 28 21:20:32 ART 2018
+IP: /127.0.0.1:52964
+
+Connection with client# 3 closed
+New connection with client# 4 at Socket[addr=/127.0.0.1,port=52965,localport=8000]
+ClientNumber: 4
+DateTime: Sun Oct 28 21:20:33 ART 2018
+IP: /127.0.0.1:52965
+
+Connection with client# 4 closed
+New connection with client# 5 at Socket[addr=/127.0.0.1,port=52967,localport=8000]
+ClientNumber: 5
+DateTime: Sun Oct 28 21:20:43 ART 2018
+IP: /127.0.0.1:52967
+
+Connection with client# 5 closed
+New connection with client# 6 at Socket[addr=/127.0.0.1,port=52968,localport=8000]
+ClientNumber: 6
+DateTime: Sun Oct 28 21:20:43 ART 2018
+IP: /127.0.0.1:52968
+
+Connection with client# 6 closed
+New connection with client# 7 at Socket[addr=/127.0.0.1,port=52969,localport=8000]
+ClientNumber: 7
+DateTime: Sun Oct 28 21:20:48 ART 2018
+IP: /127.0.0.1:52969
+
+Connection with client# 7 closed
+New connection with client# 8 at Socket[addr=/127.0.0.1,port=52995,localport=8000]
+ClientNumber: 8
+DateTime: Sun Oct 28 21:21:47 ART 2018
+IP: /127.0.0.1:52995
+
+Connection with client# 8 closed
+New connection with client# 0 at Socket[addr=/127.0.0.1,port=53008,localport=8001]
+ClientNumber: 0
+DateTime: Sun Oct 28 21:22:26 ART 2018
+IP: /127.0.0.1:53008
+
+Connection with client# 0 closed
+New connection with client# 1 at Socket[addr=/127.0.0.1,port=53016,localport=8001]
+ClientNumber: 1
+DateTime: Sun Oct 28 21:23:26 ART 2018
+IP: /127.0.0.1:53016
+
+Connection with client# 1 closed
+New connection with client# 0 at Socket[addr=/127.0.0.1,port=53047,localport=8002]
+ClientNumber: 0
+DateTime: Sun Oct 28 21:25:50 ART 2018
+IP: /127.0.0.1:53047
+
+Connection with client# 0 closed
+New connection with client# 1 at Socket[addr=/127.0.0.1,port=53050,localport=8002]
+ClientNumber: 1
+DateTime: Sun Oct 28 21:26:20 ART 2018
+IP: /127.0.0.1:53050
+
+Connection with client# 1 closed
+New connection with client# 2 at Socket[addr=/127.0.0.1,port=53054,localport=8002]
+ClientNumber: 2
+DateTime: Sun Oct 28 21:26:39 ART 2018
+IP: /127.0.0.1:53054
+
+Connection with client# 2 closed
+New connection with client# 3 at Socket[addr=/127.0.0.1,port=53055,localport=8002]
+ClientNumber: 3
+DateTime: Sun Oct 28 21:26:50 ART 2018
+IP: /127.0.0.1:53055
+
+Connection with client# 3 closedClientNumber: 0
+DateTime: Sun Oct 28 21:28:31 ART 2018
+IP: /127.0.0.1:53074
+
+ClientNumber: 1
+DateTime: Sun Oct 28 21:28:31 ART 2018
+IP: /127.0.0.1:53075
+
+ClientNumber: 2
+DateTime: Sun Oct 28 21:28:36 ART 2018
+IP: /127.0.0.1:53077
+
+ClientNumber: 0
+DateTime: Sun Oct 28 21:29:10 ART 2018
+IP: /127.0.0.1:53089
+
+ClientNumber: 1
+DateTime: Sun Oct 28 21:29:17 ART 2018
+IP: /127.0.0.1:53091
+
+DateTime: Sun Oct 28 21:29:49 ART 2018
+IP: /127.0.0.1:53098
+
+DateTime: Sun Oct 28 21:30:08 ART 2018
+IP: /127.0.0.1:53109
+
+DateTime: Sun Oct 28 21:30:09 ART 2018
+IP: /127.0.0.1:53110
+

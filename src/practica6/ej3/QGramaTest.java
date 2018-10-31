@@ -10,6 +10,6 @@ public class QGramaTest {
         qGrama.addWord("Cama");
 
         // Debe devolver Casa porque comparten "as"
-        System.out.println(StringMatcher.match(qGrama, "Gaston", size));
+        System.out.println(StringMatcher.match(qGrama, "Gasoam", size));
     }
 }

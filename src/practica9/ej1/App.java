@@ -1,7 +1,5 @@
 package practica9.ej1;
 
-import javafx.scene.shape.Path;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.image.BufferedImage;
@@ -32,7 +30,7 @@ public class App {
         BufferedImage myPicture = null;
 
         try {
-            myPicture = ImageIO.read(new File("src/practica9/ej1/Anor_Londo.jpg"));
+            myPicture = ImageIO.read(new File("Anor_Londo.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }

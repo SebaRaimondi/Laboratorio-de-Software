@@ -62,8 +62,7 @@ public class Encuentro extends Partido implements Tormenta {
             } catch (EquipoIncompleto e) {
             } catch (Falta e) {
             } catch (Lluvia e) {
-            } catch (FutbolException e) {
-            }
+            } catch (FutbolException e) { }
         }
     }
 }
